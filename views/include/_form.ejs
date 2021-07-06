@@ -1,0 +1,51 @@
+ <!-- form handling -->
+ <form action="/api/users" method="POST" id="add_user">
+    <div class="new_user">
+        <div class="form-group">
+            <label for="name" class="text-dark">Name</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="name" value="" placeholder="Vishrut Tiwari">
+        </div>
+        <div class="form-group">
+            <label for="Email" class="text-dark">Email</label>
+            <input type="text" name="email" value="" placeholder="vt7433@bard.edu">
+        </div>
+        <div class="form-group">
+            <label for="class" class="text-dark">Class</label>
+            <div class="radio inline">
+                <input type="radio" id="radio-1" name="class" value="Math and Politics" >
+                <label for="radio-1" class="radio-label">Math and Politics</label>
+            </div>
+            <div class="radio inline">
+                <input type="radio" id="radio-2" name="class" value="Precalc" >
+                <label for="radio-2" class="radio-label">Precalculus</label>
+            </div>
+            <div class="radio inline">
+                <input type="radio" id="radio-3" name="class" value="Calculus I" >
+                <label for="radio-3" class="radio-label">Calculus I</label>
+            </div>
+            <div class="radio inline">
+                <input type="radio" id="radio-4" name="class" value="Calculus II" >
+                <label for="radio-4" class="radio-label">Calculus II</label>
+            </div>
+            <div class="radio inline">
+                <input type="radio" id="radio-5" name="class" value="Intermidiate Calculus" >
+                <label for="radio-5" class="radio-label">Intermidiate Calculus</label>
+            </div>
+            <div class="radio inline">
+                <input type="radio" id="radio-6" name="class" value="Proofs" >
+                <label for="radio-6" class="radio-label">Proofs and Fundementals </label>
+            </div>
+            <div class="radio inline">
+                <input type="radio" id="radio-7" name="class" value="Linear Algebra" >
+                <label for="radio-7" class="radio-label">Linear Algebra</label>
+            </div>
+        </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
+</form>
